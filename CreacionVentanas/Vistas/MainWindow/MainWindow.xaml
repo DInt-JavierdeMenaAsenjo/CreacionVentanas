@@ -10,6 +10,7 @@
         <StackPanel Orientation="Horizontal" DockPanel.Dock="Top">
             <Button Margin="5" Command="{Binding Path=UC1Command}">UC1</Button>
             <Button Margin="5" Command="{Binding Path=UC2Command}">UC2</Button>
+            <Button Margin="5" Command="{Binding Path=CambiaCommand}">Cambiar texto</Button>
         </StackPanel>
         <Border BorderBrush="Black" BorderThickness="1" Margin="5">
             <ContentControl Content="{Binding Path=ContenidoMostrar}"></ContentControl>
